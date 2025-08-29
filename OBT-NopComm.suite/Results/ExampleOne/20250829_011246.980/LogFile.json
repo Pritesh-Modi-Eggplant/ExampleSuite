@@ -1,0 +1,156 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running ExampleOne.script",
+      "timestamp" : "2025-08-29 01:12:46.982 +0100"
+    },
+    {
+      "handlerName" : "on_exampleone",
+      "message" : "{browser:\"chrome\", host:\"127.0.0.1\", name:\"NopComm\", port:\"4444\", url:\"https:\/\/demo.nopcommerce.com\/\"}",
+      "timestamp" : "2025-08-29 01:12:48.034 +0100",
+      "identifier" : "WebConnect",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_exampleone",
+      "message" : "https:\/\/demo.nopcommerce.com\/ on {browser:\"chrome\", host:\"127.0.0.1\", Name:\"NopComm\", overrideName:\"NopComm\", Port:4444, temporary:\"True\", type:\"WebDriver\", url:\"https:\/\/demo.nopcommerce.com\/\"}",
+      "timestamp" : "2025-08-29 01:12:48.624 +0100",
+      "identifier" : "Set URL",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (747, 22)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"a\", ID:\"\", Name:\"\", Text:\"Register\", Class:\"ico-register\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[725.171875,0,770.171875,45]>",
+      "handlerLine" : 4,
+      "timestamp" : "2025-08-29 01:12:49.600 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (433, 438)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"label\", ID:\"\", Name:\"\", Text:\"Male\", Class:\"forcheckbox\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[418,430,448,446]>",
+      "handlerLine" : 5,
+      "timestamp" : "2025-08-29 01:12:50.633 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (600, 489)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"input\", ID:\"FirstName\", Name:\"FirstName\", Text:\"\", Class:\"\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[400,469,800,509]>",
+      "handlerLine" : 3,
+      "timestamp" : "2025-08-29 01:12:51.650 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_txtentry",
+      "message" : "John",
+      "timestamp" : "2025-08-29 01:12:51.717 +0100",
+      "identifier" : "sendkeys",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (600, 544)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"input\", ID:\"LastName\", Name:\"LastName\", Text:\"\", Class:\"\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[400,524,800,564]>",
+      "handlerLine" : 3,
+      "timestamp" : "2025-08-29 01:12:52.655 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_txtentry",
+      "message" : "Smith",
+      "timestamp" : "2025-08-29 01:12:52.698 +0100",
+      "identifier" : "sendkeys",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (600, 599)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"input\", ID:\"Email\", Name:\"Email\", Text:\"\", Class:\"\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[400,579,800,619]>",
+      "handlerLine" : 3,
+      "timestamp" : "2025-08-29 01:12:53.670 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_txtentry",
+      "message" : "john.smith@gmail.com",
+      "timestamp" : "2025-08-29 01:12:53.731 +0100",
+      "identifier" : "sendkeys",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (406, 974)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"input\", ID:\"Newsletter\", Name:\"Newsletter\", Text:\"\", Class:\"\", IsSelected:Yes, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[400,968.5,413,981.5]>",
+      "handlerLine" : 3,
+      "timestamp" : "2025-08-29 01:12:54.699 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (600, 1157)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"input\", ID:\"Password\", Name:\"Password\", Text:\"\", Class:\"\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[400,1137,800,1177]>",
+      "handlerLine" : 3,
+      "timestamp" : "2025-08-29 01:12:55.724 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_txtentry",
+      "message" : "password1234",
+      "timestamp" : "2025-08-29 01:12:55.765 +0100",
+      "identifier" : "sendkeys",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (600, 1212)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"input\", ID:\"ConfirmPassword\", Name:\"ConfirmPassword\", Text:\"\", Class:\"\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[400,1192,800,1232]>",
+      "handlerLine" : 3,
+      "timestamp" : "2025-08-29 01:12:56.738 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_txtentry",
+      "message" : "password1234",
+      "timestamp" : "2025-08-29 01:12:56.792 +0100",
+      "identifier" : "sendkeys",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_exampleone",
+      "message" : "{browser:\"chrome\", host:\"127.0.0.1\", Name:\"NopComm\", overrideName:\"NopComm\", Port:4444, temporary:\"True\", type:\"WebDriver\", url:\"https:\/\/demo.nopcommerce.com\/\"}",
+      "timestamp" : "2025-08-29 01:12:59.804 +0100",
+      "identifier" : "WebDisconnect",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 23
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"13.024783\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2025-08-29 01:12:46 +0100\", Successes:\"1\", TestCase:\"ExampleOne.script\", Warnings:\"0\")",
+      "timestamp" : "2025-08-29 01:13:00.008 +0100"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:13 ExampleOne.script",
+      "timestamp" : "2025-08-29 01:13:00.014 +0100"
+    }
+  ],
+  "createdTimestamp" : "2025-08-29 01:12:46.983 +0100"
+}

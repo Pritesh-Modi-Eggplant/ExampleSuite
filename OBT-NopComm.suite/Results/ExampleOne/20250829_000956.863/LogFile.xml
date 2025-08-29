@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="ExampleOne_script" package="OBT-NopComm.suite" timestamp="2025-08-29 00:09:56.863 +0100"
+ tests="1"  failures="1" errors="0" time="150.133981">
+  <properties>
+   <property name="RunDate" value="2025-08-29 00:09:56.863 +0100"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="ExampleOne.script" assertions="1" status="failure"  time="150.130683">
+    <failure type="FAILURE" message="NoWebDriver: FindElement function must be called with (or on) a WebDriver (or WebElement) object. -- Execution Time 0:02:30 ExampleOne.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

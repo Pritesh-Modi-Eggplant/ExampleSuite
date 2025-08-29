@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="ExampleOne">
+ <run>
+  <RunDate>2025-08-28 15:15:59.700 +0100</RunDate>
+  <Status>Success</Status>
+  <Duration>3.174935</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250828_151559.700/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-08-28 23:09:48.249 +0100</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.166028</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250828_230948.249/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SetUrlError -- com.appium.selenium code=-2 description=Response code 404 received from Selenium Server. {&quot;error&quot;:&quot;invalid session id&quot;,&quot;message&quot;:&quot;Unable to find session with ID: 1c0a0b6fca41e2dc06fc9ae27e068372&quot;}.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-08-29 00:09:56.863 +0100</RunDate>
+  <Status>Failure</Status>
+  <Duration>150.133981</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250829_000956.863/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>NoWebDriver -- FindElement function must be called with (or on) a WebDriver (or WebElement) object.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-08-29 01:08:06.431 +0100</RunDate>
+  <Status>Success</Status>
+  <Duration>10.455426</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250829_010806.431/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-08-29 01:09:54.853 +0100</RunDate>
+  <Status>Success</Status>
+  <Duration>10.710414</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250829_010954.853/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-08-29 01:10:46.123 +0100</RunDate>
+  <Status>Success</Status>
+  <Duration>10.220834</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250829_011046.123/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-08-29 01:11:33.492 +0100</RunDate>
+  <Status>Success</Status>
+  <Duration>9.987541</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250829_011133.492/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-08-29 01:12:24.539 +0100</RunDate>
+  <Status>Success</Status>
+  <Duration>10.381624</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250829_011224.539/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-08-29 01:12:46.980 +0100</RunDate>
+  <Status>Success</Status>
+  <Duration>13.028006</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250829_011246.980/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

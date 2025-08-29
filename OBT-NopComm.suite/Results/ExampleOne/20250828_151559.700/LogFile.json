@@ -1,0 +1,36 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running ExampleOne.script",
+      "timestamp" : "2025-08-28 15:15:59.704 +0100"
+    },
+    {
+      "handlerName" : "on_exampleone",
+      "message" : "{browser:\"chrome\", host:\"127.0.0.1\", name:\"Connection2\", port:\"4444\", temporary:True, url:\"https:\/\/demo.nopcommerce.com\/\"}",
+      "timestamp" : "2025-08-28 15:16:01.351 +0100",
+      "identifier" : "WebConnect",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_exampleone",
+      "message" : "https:\/\/demo.nopcommerce.com\/ on {Browser:\"chrome\", Host:\"127.0.0.1\", Name:\"Connection2\", overrideName:\"Connection2\", Port:4444, temporary:\"True\", type:\"WebDriver\"}",
+      "timestamp" : "2025-08-28 15:16:02.483 +0100",
+      "identifier" : "Set URL",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 1
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"3.166234\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2025-08-28 15:15:59 +0100\", Successes:\"1\", TestCase:\"ExampleOne.script\", Warnings:\"0\")",
+      "timestamp" : "2025-08-28 15:16:02.882 +0100"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:03 ExampleOne.script",
+      "timestamp" : "2025-08-28 15:16:02.894 +0100"
+    }
+  ],
+  "createdTimestamp" : "2025-08-28 15:15:59.714 +0100"
+}

@@ -1,0 +1,4 @@
+﻿2025-08-29 00:09:56.866 +0100	START		Running ExampleOne.script
+2025-08-29 00:12:26.961 +0100	WebConnect		{browser:"chrome", host:"172.131.100.241", port:"4444", temporary:True, url:"https://demo.nopcommerce.com/"}	1	on_exampleone	ExampleOne.script
+2025-08-29 00:12:26.997 +0100	EndTestCase		(Duration:"150.130683", Errors:"1", Exceptions:"0", StartTime:"2025-08-29 00:09:56 +0100", Successes:"0", TestCase:"ExampleOne.script", Warnings:"0")
+2025-08-29 00:12:27.167 +0100	FAILURE	Screen_Error.png	NoWebDriver: FindElement function must be called with (or on) a WebDriver (or WebElement) object. -- Execution Time 0:02:30 ExampleOne.script

@@ -1,0 +1,44 @@
+﻿WebConnect host:"127.0.0.1", browser: "chrome", port: "4444", url: "https://demo.nopcommerce.com/", name:"NopComm"
+
+ClickObject "ico-register",2
+
+ClickObject "/html/body/div[6]/div[3]/div/div/div/div[2]/form/div[1]/div[2]/div[1]/div/span[1]/label",3
+
+ClickObject "FirstName"
+txtEntry "John"
+
+ClickObject "LastName"
+txtEntry "Smith"
+
+ClickObject "Email"
+txtEntry "john.smith@gmail.com"
+
+ClickObject "Newsletter"
+
+Set pwd to "password1234"
+ClickObject "Password"
+txtEntry pwd
+
+ClickObject "ConfirmPassword"
+txtEntry pwd
+
+wait 3 --paused just to take stock of the output before disconnecting
+WebDisconnect
+
+to handle ClickObject objectTXT,idVal:1
+	if idVal is... 
+		...1 then Click webID: objectTXT
+		...2 then click webClassName:objectTXT
+		...3 then click webXPath:objectTXT
+		else
+			click WebLinkText:objectTXT
+	end if
+end ClickObject
+
+to handle txtEntry myValue
+	SendKeys  myValue
+end txtEntry
+
+
+
+

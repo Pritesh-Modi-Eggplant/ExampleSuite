@@ -1,0 +1,33 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running ExampleOne.script",
+      "timestamp" : "2025-08-28 23:09:48.266 +0100"
+    },
+    {
+      "handlerName" : "on_exampleone",
+      "message" : "{browser:\"chrome\", host:\"127.0.0.1\", name:\"Connection2\", port:\"4444\", url:\"https:\/\/demo.nopcommerce.com\/\"}",
+      "timestamp" : "2025-08-28 23:09:48.336 +0100",
+      "identifier" : "WebConnect",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 1
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.143298\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2025-08-28 23:09:48 +0100\", Successes:\"0\", TestCase:\"ExampleOne.script\", Warnings:\"0\")",
+      "timestamp" : "2025-08-28 23:09:48.418 +0100"
+    },
+    {
+      "identifier" : "FAILURE",
+      "message" : "SetUrlError: com.appium.selenium code=-2 description=Response code 404 received from Selenium Server. {\"error\":\"invalid session id\",\"message\":\"Unable to find session with ID: 1c0a0b6fca41e2dc06fc9ae27e068372\"}. -- Execution Time 0:00:00 ExampleOne.script",
+      "timestamp" : "2025-08-28 23:09:48.436 +0100"
+    },
+    {
+      "identifier" : "FAILURE",
+      "message" : "SetUrlError: com.appium.selenium code=-2 description=Response code 404 received from Selenium Server. {\"error\":\"invalid session id\",\"message\":\"Unable to find session with ID: 1c0a0b6fca41e2dc06fc9ae27e068372\"}. -- Screenshot unavailable -- Execution Time 0:00:00 ExampleOne.script",
+      "timestamp" : "2025-08-28 23:09:48.464 +0100"
+    }
+  ],
+  "createdTimestamp" : "2025-08-28 23:09:48.273 +0100"
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="ExampleOne_script" package="OBT-NopComm.suite" timestamp="2025-08-28 23:09:48.249 +0100"
+ tests="1"  failures="2" errors="0" time="0.166028">
+  <properties>
+   <property name="RunDate" value="2025-08-28 23:09:48.249 +0100"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="ExampleOne.script" assertions="1" status="failure"  time="0.143298">
+    <failure type="FAILURE" message="SetUrlError: com.appium.selenium code=-2 description=Response code 404 received from Selenium Server. {&quot;error&quot;:&quot;invalid session id&quot;,&quot;message&quot;:&quot;Unable to find session with ID: 1c0a0b6fca41e2dc06fc9ae27e068372&quot;}. -- Execution Time 0:00:00 ExampleOne.script" />
+    <failure type="FAILURE" message="SetUrlError: com.appium.selenium code=-2 description=Response code 404 received from Selenium Server. {&quot;error&quot;:&quot;invalid session id&quot;,&quot;message&quot;:&quot;Unable to find session with ID: 1c0a0b6fca41e2dc06fc9ae27e068372&quot;}. -- Screenshot unavailable -- Execution Time 0:00:00 ExampleOne.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="ExampleOne_script" package="OBT-NopComm.suite" timestamp="2025-08-28 15:15:59.700 +0100"
+ tests="1"  failures="0" errors="0" time="3.174935">
+  <properties>
+   <property name="RunDate" value="2025-08-28 15:15:59.700 +0100"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="ExampleOne.script" assertions="1" status="success"  time="3.166234">
+  </testcase>
+ </testsuite>
+</testsuites>

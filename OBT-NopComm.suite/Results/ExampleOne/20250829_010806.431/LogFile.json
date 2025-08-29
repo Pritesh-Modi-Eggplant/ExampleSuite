@@ -1,0 +1,148 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running ExampleOne.script",
+      "timestamp" : "2025-08-29 01:08:06.433 +0100"
+    },
+    {
+      "handlerName" : "on_exampleone",
+      "message" : "{browser:\"chrome\", host:\"127.0.0.1\", port:\"4444\", url:\"https:\/\/demo.nopcommerce.com\/\"}",
+      "timestamp" : "2025-08-29 01:08:07.964 +0100",
+      "identifier" : "WebConnect",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_exampleone",
+      "message" : "https:\/\/demo.nopcommerce.com\/ on {Browser:\"chrome\", Host:\"127.0.0.1\", Name:\"\", port:\"4444\", temporary:\"True\", type:\"WebDriver\", url:\"https:\/\/demo.nopcommerce.com\/\"}",
+      "timestamp" : "2025-08-29 01:08:08.647 +0100",
+      "identifier" : "Set URL",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 1
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (747, 22)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"a\", ID:\"\", Name:\"\", Text:\"Register\", Class:\"ico-register\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[725.171875,0,770.171875,45]>",
+      "handlerLine" : 5,
+      "timestamp" : "2025-08-29 01:08:09.697 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (433, 438)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"label\", ID:\"\", Name:\"\", Text:\"Male\", Class:\"forcheckbox\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[418,430,448,446]>",
+      "handlerLine" : 6,
+      "timestamp" : "2025-08-29 01:08:10.718 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (600, 489)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"input\", ID:\"FirstName\", Name:\"FirstName\", Text:\"\", Class:\"\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[400,469,800,509]>",
+      "handlerLine" : 4,
+      "timestamp" : "2025-08-29 01:08:11.747 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_txtentry",
+      "message" : "John",
+      "timestamp" : "2025-08-29 01:08:11.855 +0100",
+      "identifier" : "sendkeys",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (600, 544)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"input\", ID:\"LastName\", Name:\"LastName\", Text:\"\", Class:\"\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[400,524,800,564]>",
+      "handlerLine" : 4,
+      "timestamp" : "2025-08-29 01:08:12.763 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_txtentry",
+      "message" : "Smith",
+      "timestamp" : "2025-08-29 01:08:12.804 +0100",
+      "identifier" : "sendkeys",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (600, 599)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"input\", ID:\"Email\", Name:\"Email\", Text:\"\", Class:\"\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[400,579,800,619]>",
+      "handlerLine" : 4,
+      "timestamp" : "2025-08-29 01:08:13.786 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_txtentry",
+      "message" : "john.smith@gmail.com",
+      "timestamp" : "2025-08-29 01:08:13.845 +0100",
+      "identifier" : "sendkeys",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (406, 974)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"input\", ID:\"Newsletter\", Name:\"Newsletter\", Text:\"\", Class:\"\", IsSelected:Yes, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[400,968.5,413,981.5]>",
+      "handlerLine" : 4,
+      "timestamp" : "2025-08-29 01:08:14.789 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (600, 1157)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"input\", ID:\"Password\", Name:\"Password\", Text:\"\", Class:\"\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[400,1137,800,1177]>",
+      "handlerLine" : 4,
+      "timestamp" : "2025-08-29 01:08:15.807 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_txtentry",
+      "message" : "password1234",
+      "timestamp" : "2025-08-29 01:08:15.854 +0100",
+      "identifier" : "sendkeys",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_clickobject",
+      "message" : "at (600, 1212)",
+      "identifier" : "click",
+      "image" : "<WebElement with TagName:\"input\", ID:\"ConfirmPassword\", Name:\"ConfirmPassword\", Text:\"\", Class:\"\", IsSelected:No, IsEnabled:Yes, IsDisplayed:Yes, Rectangle:[400,1192,800,1232]>",
+      "handlerLine" : 4,
+      "timestamp" : "2025-08-29 01:08:16.824 +0100",
+      "scriptName" : "ExampleOne.script"
+    },
+    {
+      "handlerName" : "on_txtentry",
+      "message" : "password1234",
+      "timestamp" : "2025-08-29 01:08:16.869 +0100",
+      "identifier" : "sendkeys",
+      "scriptName" : "ExampleOne.script",
+      "handlerLine" : 2
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"10.45272\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2025-08-29 01:08:06 +0100\", Successes:\"1\", TestCase:\"ExampleOne.script\", Warnings:\"0\")",
+      "timestamp" : "2025-08-29 01:08:16.887 +0100"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:10 ExampleOne.script",
+      "timestamp" : "2025-08-29 01:08:16.895 +0100"
+    }
+  ],
+  "createdTimestamp" : "2025-08-29 01:08:06.433 +0100"
+}
